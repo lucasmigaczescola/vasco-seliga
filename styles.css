@@ -1,0 +1,107 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #4b524c;
+}
+
+header {
+    background: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav ul li a {
+    color: rgb(185, 12, 12);
+    text-decoration: none;
+    padding: 5px 10px; 
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #913636; 
+    background-color: white; 
+    transform: scale(1.1); 
+    border-radius: 5px; 
+}
+
+section {
+    padding: 20px;
+    margin-left: 50px;
+}
+
+#inspiracoes {
+    text-align: center;
+    margin: 0;
+}
+
+section h2 {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+section img {
+    width: 40%;
+}
+
+section blockquote {
+    color: #000000;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#motivacao-button {
+    background: linear-gradient(145deg, #b6bba4, #353a35); 
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease;
+}
+
+#motivacao-button:hover {
+    background: linear-gradient(145deg, #b0b1ad, #2e302e); 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+#motivacao-button:active {
+    transform: scale(0.95);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+}
